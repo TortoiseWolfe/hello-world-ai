@@ -1,0 +1,32 @@
+# hello-world-ai dev environment
+#
+# Services:
+#   hello-world-ai - Next.js dev server on port 3000
+#
+# Usage:
+#   cp .env.example .env
+#   docker compose up
+#
+# Then open http://localhost:3000
+
+services:
+  hello-world-ai:
+    image: node:22-alpine
+    container_name: hello-world-ai
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - hello_world_ai_node_modules:/app/node_modules
+      - hello_world_ai_next:/app/.next
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: ${PORT:-3000}
+      # Add secrets here using the ${VAR:-placeholder} pattern, never hardcoded
+      # DATABASE_URL: ${DATABASE_URL:-postgres://user:change-me@db:5432/dev}
+    command: sh -c "corepack enable && pnpm install && pnpm run dev"
+
+volumes:
+  hello_world_ai_node_modules:
+  hello_world_ai_next:

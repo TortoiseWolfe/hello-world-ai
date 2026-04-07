@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Environment (NEVER commit these)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# Cache
+.cache/
+.eslintcache
+
+# SpecKit (uncomment if you don't want to commit specs/)
+# specs/
+
+# Local scratch
+scratch/
+tmp/
+*.local.md
