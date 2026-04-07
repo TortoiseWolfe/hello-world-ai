@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'hello-world-ai',
-  description: 'Companion starter for the TSD_AI_Workflow curriculum',
+  description: 'Companion starter for the AI_Workflow curriculum',
 };
 
 export default function RootLayout({

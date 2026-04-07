@@ -1,6 +1,6 @@
 # hello-world-ai
 
-The companion starter for [TSD_AI_Workflow](https://github.com/TurtleWolfe/TSD_AI_Workflow). A minimal Docker-first Next.js 15 + React 19 + TypeScript + Tailwind 4 project with the 30-command Claude Code starter kit pre-installed.
+The companion starter for [AI_Workflow](https://github.com/TortoiseWolfe/AI_Workflow). A minimal Docker-first Next.js 15 + React 19 + TypeScript + Tailwind 4 project wired for Claude Code, with 30 slash commands preinstalled at `.claude/commands/`. **You install Claude Code on your machine separately** — see [the Claude Code docs](https://docs.claude.com/claude-code).
 
 **You just cloned this. Here's what to do.**
 
@@ -16,7 +16,7 @@ docker compose up
 
 Wait for the "ready" line. Open [http://localhost:3000](http://localhost:3000) in a browser. You should see the "Hello, TSD" landing page.
 
-That's it. The dev server is running, hot reload works, and Claude Code is configured. You're ready to ship.
+That's it. The dev server is running, hot reload works, and the slash command kit is in place at `.claude/commands/`. Once you have Claude Code installed on your machine, run `claude` in this directory and you're ready to ship.
 
 ---
 
@@ -114,7 +114,7 @@ You're ready to start building.
 
 - **Not a production template.** This is a minimum viable starter for learning the workflow. Production apps have auth, database, error handling, etc.
 - **Not a Next.js tutorial.** Read [Next.js docs](https://nextjs.org/docs) for that.
-- **Not a Claude Code tutorial.** Read [TSD_AI_Workflow](https://github.com/TurtleWolfe/TSD_AI_Workflow) for that.
+- **Not a Claude Code tutorial.** Read [AI_Workflow](https://github.com/TortoiseWolfe/AI_Workflow) for that.
 
 ---
 
@@ -127,4 +127,4 @@ This starter is the companion to:
 - **Chapter 03 — Slash Commands** — install the starter kit (already done here)
 - **Chapter 04 — The SpecKit Loop** — ship a real feature end-to-end
 
-Visit the curriculum at [`~/repos/TSD_AI_Workflow/`](../TSD_AI_Workflow/) (or wherever you cloned it).
+Visit the curriculum at [`~/repos/AI_Workflow/`](../AI_Workflow/) (or wherever you cloned it).

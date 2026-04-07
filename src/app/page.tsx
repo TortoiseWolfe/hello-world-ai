@@ -35,10 +35,10 @@ export default function Page() {
           <p className="text-slate-700">
             This starter is the companion to the{' '}
             <a
-              href="https://github.com/TurtleWolfe/TSD_AI_Workflow"
+              href="https://github.com/TortoiseWolfe/AI_Workflow"
               className="text-blue-600 hover:underline font-medium"
             >
-              TSD_AI_Workflow
+              AI_Workflow
             </a>{' '}
             curriculum — six chapters that teach the discipline this starter is built on.
           </p>

@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-Instructions for Claude Code when working in `hello-world-ai`. This is the **companion starter** for [TSD_AI_Workflow](https://github.com/TurtleWolfe/TSD_AI_Workflow).
+Instructions for Claude Code when working in `hello-world-ai`. This is the **companion starter** for [AI_Workflow](https://github.com/TortoiseWolfe/AI_Workflow).
 
 ## Purpose
 
-This repo is the smallest possible Docker-first Next.js project with Claude Code pre-configured. It exists so TSD interns can clone it on Day 1 and ship a real commit in under 15 minutes — no scaffolding, no setup, no friction.
+This repo is the smallest possible Docker-first Next.js project wired for Claude Code, with the 30-command slash-command kit preinstalled at `.claude/commands/`. It exists so TSD interns can clone it on Day 1 and ship a real commit in under 15 minutes — no scaffolding, no setup, no friction. (Interns still install Claude Code itself on their own machine — see [the Claude Code docs](https://docs.claude.com/claude-code).)
 
 When someone clones this and renames it for a real project, this `CLAUDE.md` is the starting template for their `CLAUDE.md`. They'll add project-specific rules over time.
 
@@ -136,7 +136,7 @@ src/components/ComponentName/
 └── ComponentName.accessibility.test.tsx  # a11y test
 ```
 
-See the [TSD_AI_Workflow five-file-components principle](https://github.com/TurtleWolfe/TSD_AI_Workflow) for the full rationale.
+See the [AI_Workflow five-file-components principle](https://github.com/TortoiseWolfe/AI_Workflow) for the full rationale.
 
 ## SpecKit (Optional)
 
@@ -160,7 +160,7 @@ The `.claude/commands/` directory has 30 starter-kit commands. The most importan
 - `/test` — run the test suite inside Docker
 - `/code-review` — 5-phase audit (security, performance, quality, tests, docs)
 
-For the full catalog, see [TSD_AI_Workflow Chapter 03](https://github.com/TurtleWolfe/TSD_AI_Workflow/tree/main/03-slash-commands).
+For the full catalog, see [AI_Workflow Chapter 03](https://github.com/TortoiseWolfe/AI_Workflow/tree/main/03-slash-commands).
 
 ---
 
@@ -169,5 +169,5 @@ For the full catalog, see [TSD_AI_Workflow Chapter 03](https://github.com/Turtle
 - Respect Docker-first. Never run package managers on the host.
 - Respect the secrets rule. Never hardcode credentials in committed files.
 - This is a minimal starter. Don't add features that aren't requested.
-- If the user is following TSD_AI_Workflow, they may ask you to make small edits to demonstrate the workflow. Keep changes minimal and focused.
+- If the user is following AI_Workflow, they may ask you to make small edits to demonstrate the workflow. Keep changes minimal and focused.
 - Don't summarize this CLAUDE.md when loaded. Just read it and be ready.
